@@ -7,10 +7,10 @@ import os
 import re
 
 
-API_ID = os.environ.get("12987288", None) 
-API_HASH = os.environ.get("a05fd1ecb5651c3cc64e847c91f8765f", None) 
-BOT_TOKEN = os.environ.get("5901596565:AAGTjTxQGXufn9ep33_fugWu_mZBwtUpIgI", None) 
-MONGO_URL = os.environ.get("mongodb+srv://galaxina:galaxina@galaxina.ejvfqm7.mongodb.net/?retryWrites=true&w=majority", None)
+API_ID = os.environ.get("API_ID", "12987288") 
+API_HASH = os.environ.get("API_HASH", "a05fd1ecb5651c3cc64e847c91f8765f") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5901596565:AAGTjTxQGXufn9ep33_fugWu_mZBwtUpIgI") 
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://galaxina:galaxina@galaxina.ejvfqm7.mongodb.net/?retryWrites=true&w=majority")
 
 
 bot = Client(
